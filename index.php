@@ -23,16 +23,16 @@
 				$page = $_GET['page'];
 		
 				switch ($page) {
-					case 'Profildiri.php':
+					case 'Profildiri':
 						include "Halaman/Profildiri.php";
 						break;
-					case 'Tentang.php':
+					case 'Tentang':
 						include "Halaman/Tentang.php";
 						break;
-					case 'Kontak.php':
+					case 'Kontak':
 						include "Halaman/Kontak.php";
 						break;	
-                        default:
+                    default:
 						echo "<center><h3>Nasywa Aulya Putri</h3></center>";
 						break;	
 				}
